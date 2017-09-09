@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="24dp">
+
+
+    <EditText
+        android:id="@+id/gamesEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_underline_black"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:hint="Ingrese plataforma y juego"
+        android:inputType="text"
+        android:padding="8dp"
+         />
+
+    <ImageButton
+        android:id="@+id/saveGamesBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@mipmap/ic_save_white_24dp"
+        android:theme="@style/AccentButton"
+        android:scaleType="centerCrop"
+
+
+
+        />
+
+</LinearLayout>
