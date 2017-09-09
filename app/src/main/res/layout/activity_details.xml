@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:layout_centerHorizontal="true"
-        android:text="Ingrese un recordatoriio"
+        android:text="Ingrese un recordatorio"
         android:id="@+id/txtView1"/>
 
     <EditText
